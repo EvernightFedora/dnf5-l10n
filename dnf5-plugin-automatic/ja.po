@@ -1,0 +1,124 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-07-26 03:48+0000\n"
+"PO-Revision-Date: 2026-03-06 10:06+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.8\n"
+
+#: automatic.cpp:206
+msgid ""
+"An alternative CLI to 'dnf upgrade' suitable to be executed automatically "
+"and regularly."
+msgstr "自動的かつ定期的に実行するのに適した 'dnf upgrade' の代替 CLI。"
+
+#: automatic.cpp:212
+msgid "Apply random delay before execution."
+msgstr "実行前にランダムな遅延を適用する。"
+
+#: automatic.cpp:217
+msgid "Automatically download updated packages"
+msgstr "更新されたパッケージを自動的にダウンロードする"
+
+#: automatic.cpp:224
+msgid "Do not automatically download updated packages"
+msgstr "更新されたパッケージを自動的にダウンロードしないでください"
+
+#: automatic.cpp:233
+msgid "Automatically install downloaded updates"
+msgstr "ダウンロードした更新プログラムを自動的にインストールする"
+
+#: automatic.cpp:240
+msgid "Do not automatically install downloaded updates"
+msgstr "ダウンロードした更新プログラムを自動的にインストールしない"
+
+#: automatic.cpp:300
+#, c++-format
+msgid ""
+"Warning: Configuration file location \"{}\" for dnf automatic is deprecated. "
+"See dnf5-automatic(8) for details."
+msgstr ""
+"警告: dnf自動用の設定ファイルの場所「{}」は非推奨です。詳細はdnf5-"
+"automatic(8)を参照してください。"
+
+#: automatic.cpp:355
+msgid "Resolved transaction:"
+msgstr "解決された取引："
+
+#: automatic.cpp:384
+msgid "Downloading packages:"
+msgstr "パッケージをダウンロードしています:"
+
+#: automatic.cpp:394
+msgid "Packages downloaded."
+msgstr "パッケージがダウンロードされました。"
+
+#: automatic.cpp:397
+msgid "Running transaction:"
+msgstr "トランザクションを実行中："
+
+#: automatic.cpp:411
+msgid "Transaction finished."
+msgstr "取引が完了しました。"
+
+#: automatic.cpp:413
+msgid "Transaction failed: "
+msgstr "取引に失敗しました："
+
+#: automatic.cpp:444
+#, c++-format
+msgid "Unknown report emitter for dnf5 automatic: \"{}\"."
+msgstr "dnf5 自動の不明なレポート送信者: \"{}\"。"
+
+#: automatic.cpp:459
+#, c++-format
+msgid "Error: reboot command returned nonzero exit code: {}"
+msgstr "エラー: reboot コマンドがゼロ以外の終了コードを返しました: {}"
+
+#: emitters.cpp:63
+msgid "No new upgrades available."
+msgstr "利用可能な新しいアップグレードはありません。"
+
+#: emitters.cpp:67
+#, c++-format
+msgid "{} packages can be upgraded."
+msgstr "{} パッケージをアップグレードできます。"
+
+#: emitters.cpp:70
+#, c++-format
+msgid "{} new upgrades have been downloaded."
+msgstr "{} 件の新しいアップグレードがダウンロードされました。"
+
+#: emitters.cpp:73
+#, c++-format
+msgid "{} new upgrades have been installed."
+msgstr "{} 件の新しいアップグレードがインストールされました。"
+
+#: emitters.cpp:81
+msgid "Failed to check for upgrades."
+msgstr "アップグレードの確認に失敗しました。"
+
+#: emitters.cpp:84
+msgid "Failed to download upgrades."
+msgstr "アップグレードのダウンロードに失敗しました。"
+
+#: emitters.cpp:87
+msgid "Failed to install upgrades."
+msgstr "アップグレードのインストールに失敗しました。"
+
+#: emitters.cpp:142 emitters.cpp:163
+#, c++-format
+msgid "[{}] dnf5-automatic: {}"
+msgstr "[{}] dnf5-automatic: {}"

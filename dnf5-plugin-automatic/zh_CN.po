@@ -1,0 +1,123 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-07-26 03:48+0000\n"
+"PO-Revision-Date: 2026-03-06 10:01+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.8\n"
+
+#: automatic.cpp:206
+msgid ""
+"An alternative CLI to 'dnf upgrade' suitable to be executed automatically "
+"and regularly."
+msgstr "一个替代 'dnf upgrade' 的命令行工具，适合自动和定期执行。"
+
+#: automatic.cpp:212
+msgid "Apply random delay before execution."
+msgstr "在执行前应用随机延迟。"
+
+#: automatic.cpp:217
+msgid "Automatically download updated packages"
+msgstr "自动下载更新的包"
+
+#: automatic.cpp:224
+msgid "Do not automatically download updated packages"
+msgstr "不要自动下载更新的包"
+
+#: automatic.cpp:233
+msgid "Automatically install downloaded updates"
+msgstr "自动安装已下载的更新"
+
+#: automatic.cpp:240
+msgid "Do not automatically install downloaded updates"
+msgstr "不要自动安装已下载的更新"
+
+#: automatic.cpp:300
+#, c++-format
+msgid ""
+"Warning: Configuration file location \"{}\" for dnf automatic is deprecated. "
+"See dnf5-automatic(8) for details."
+msgstr ""
+"警告：dnf 自动化的配置文件位置“{}”已被弃用。详情请参阅 dnf5-automatic(8)。"
+
+#: automatic.cpp:355
+msgid "Resolved transaction:"
+msgstr "已解决的事务："
+
+#: automatic.cpp:384
+msgid "Downloading packages:"
+msgstr "正在下载软件包："
+
+#: automatic.cpp:394
+msgid "Packages downloaded."
+msgstr "软件包已下载。"
+
+#: automatic.cpp:397
+msgid "Running transaction:"
+msgstr "正在运行事务："
+
+#: automatic.cpp:411
+msgid "Transaction finished."
+msgstr "事务已完成"
+
+#: automatic.cpp:413
+msgid "Transaction failed: "
+msgstr "事务执行失败："
+
+#: automatic.cpp:444
+#, c++-format
+msgid "Unknown report emitter for dnf5 automatic: \"{}\"."
+msgstr "dnf5 自动的未知报告发出者: \"{}\"。"
+
+#: automatic.cpp:459
+#, c++-format
+msgid "Error: reboot command returned nonzero exit code: {}"
+msgstr "错误：重启命令返回了非零退出代码：{}"
+
+#: emitters.cpp:63
+msgid "No new upgrades available."
+msgstr "没有可用的新升级。"
+
+#: emitters.cpp:67
+#, c++-format
+msgid "{} packages can be upgraded."
+msgstr "{} 个软件包可以升级。"
+
+#: emitters.cpp:70
+#, c++-format
+msgid "{} new upgrades have been downloaded."
+msgstr "{} 个新升级已下载。"
+
+#: emitters.cpp:73
+#, c++-format
+msgid "{} new upgrades have been installed."
+msgstr "{} 个新升级的软件包已安装。"
+
+#: emitters.cpp:81
+msgid "Failed to check for upgrades."
+msgstr "检查升级失败。"
+
+#: emitters.cpp:84
+msgid "Failed to download upgrades."
+msgstr "下载升级失败。"
+
+#: emitters.cpp:87
+msgid "Failed to install upgrades."
+msgstr "安装升级失败。"
+
+#: emitters.cpp:142 emitters.cpp:163
+#, c++-format
+msgid "[{}] dnf5-automatic: {}"
+msgstr "[{}] dnf5-automatic: {}"

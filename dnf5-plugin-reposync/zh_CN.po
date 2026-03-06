@@ -1,0 +1,73 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-07-26 03:48+0000\n"
+"PO-Revision-Date: 2026-03-06 10:10+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.8\n"
+
+#: reposync.cpp:65
+msgid "Synchronize a remote DNF repository to a local directory."
+msgstr "将远程 DNF 仓库同步到本地目录。"
+
+#: reposync.cpp:159
+msgid "Can't use --norepopath with multiple repositories enabled"
+msgstr "启用多个仓库时不能使用 --norepopath"
+
+#: reposync.cpp:164
+msgid "Can't use --safe-write-path with multiple repositories enabled"
+msgstr "启用多个仓库时无法使用 --safe-write-path"
+
+#: reposync.cpp:250
+#, c++-format
+msgid ""
+"Download destination '{0}' for location '{1}' of '{2}' package from '{3}' "
+"repo is outside of safe write path '{4}'."
+msgstr ""
+"从 '{3}' 仓库下载 '{2}' 包的 '{1}' 位置的目标 '{0}' 位于安全写入路径 "
+"'{4}' 之外。"
+
+#: reposync.cpp:289
+#, c++-format
+msgid "Failed to create directory '{0}' iterator: {1}"
+msgstr "创建目录 '{0}' 迭代器失败：{1}"
+
+#: reposync.cpp:302
+#, c++-format
+msgid "Failed to delete file {0}: {1}"
+msgstr "删除文件 {0} 失败：{1}"
+
+#: reposync.cpp:305
+#, c++-format
+msgid "[DELETED] {}"
+msgstr "[DELETED] {}"
+
+#: reposync.cpp:321
+#, c++-format
+msgid "Removing '{}' with failing OpenPGP check: {}"
+msgstr "移除 '{}' 因 OpenPGP 检查失败: {}"
+
+#: reposync.cpp:384
+msgid "Failed to get mirror for metadata."
+msgstr "获取元数据的镜像失败。"
+
+#: reposync.cpp:394
+#, c++-format
+msgid "Failed to get mirror for package: \"{}\""
+msgstr "获取软件包的镜像失败：\"{}\""
+
+#: reposync.cpp:410
+msgid "OpenPGP signature check failed"
+msgstr "OpenPGP 签名检查失败"
